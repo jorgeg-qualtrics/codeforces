@@ -3,6 +3,8 @@ using namespace std;
 
 const long long MAXAI = 1000000000000ll;
 
+
+// Mas informacion sobre estas funciones en: https://en.wikipedia.org/wiki/Find_first_set
 int get_first_bit(long long n) {
     if (n == 0)
         return 0;
