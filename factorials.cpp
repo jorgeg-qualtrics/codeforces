@@ -10,6 +10,7 @@ const lli MAXAI = 1000000000000ll;
 // Le llaman el most significant bit (msb)
 // https://stackoverflow.com/questions/17027878/algorithm-to-find-the-most-significant-bit
 // https://www.geeksforgeeks.org/find-significant-set-bit-number/
+// Mas informacion sobre estas funciones en: https://en.wikipedia.org/wiki/Find_first_set
 int get_first_bit(lli n) {
 	if (n == 0) return 0;
 
